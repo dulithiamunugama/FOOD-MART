@@ -1,0 +1,43 @@
+.cart {
+  text-align: center;
+}
+
+.item {
+  text-align: center;
+  border: 5px solid #243f2f;
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  height: 200px;
+  width: 70%;
+  margin: 20px auto 20px auto;
+  padding: 20px;
+}
+
+.item img {
+  width: 33%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.item-details {
+  padding: 20px;
+  align-content: center;
+  flex: 1;
+}
+
+button {
+  background-color: #243f2f;
+  color: #fff;
+  border-radius: 12px;
+  padding: 10px;
+}
+
+.total button {
+  padding: 20px 40px 20px 40px;
+}
+
+.total {
+  padding: 50px;
+  font-size: medium;
+}

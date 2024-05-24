@@ -1,0 +1,71 @@
+.shop {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.shop-image {
+  width: 25%;
+  height: 300px;
+}
+
+.map {
+  width: 25%;
+  height: 300px;
+}
+
+.shop-decription {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 50%;
+  padding: 0px 10px 0px 10px;
+}
+
+.services-table {
+  width: 100%;
+  overflow-x: scroll;
+  border-collapse: collapse;
+  font-size: 18px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+thead tr {
+  background-color: #f2f2f2;
+}
+
+th,
+td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+}
+
+@media only screen and (max-width: 600px) {
+  .shop {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .shop-image {
+    width: 100%;
+    height: 300px;
+    order: 2;
+  }
+
+  .map {
+    width: 100%;
+    height: 300px;
+    order: 3;
+  }
+
+  .shop-decription {
+    order: 1;
+    width: 90%;
+  }
+
+  table {
+    padding: 10px;
+  }
+}
